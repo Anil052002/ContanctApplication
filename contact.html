@@ -1,21 +1,23 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <link rel="stylesheet" href="d.css"> 
+        <link rel="stylesheet" href="contact2.css"> 
     </head>
     <body style="text-align: center;">
 
         <h1 >Contact Profile</h1>
         
         <div>
+        
             <label>USER NAME :</label>
             <input type="text" placeholder="user name" id="name1" class="in"><br>
             <label>E-mail Id   :</label>
             <input type="email" placeholder="e-mail" id="em" class="in"><br>
             <label>Mobile Number :</label>
             <input type="number" placeholder="mobile number" id="number1" class="in"><br>
-            <button class=" b1 in" onclick="add()">Add</button>
-            <button class="b1 in">Reset</button>
+            <button class=" b1" onclick="setContactDetails()">Add</button>
+                    <button class="b1">Reset</button>
+
            
         </div>
         
@@ -36,7 +38,8 @@
             
             </table>
         </div>
+        <button class="b1" onclick="saveContactDetails()">  save </button>
 
-        <script src="j.js"></script>
+        <script src="contact.js"></script>
     </body>
 </html>
